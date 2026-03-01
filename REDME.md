@@ -91,10 +91,10 @@ Abstract class that implements the DFS-based path generation logic.
 
 Handles:
 
-Command-line argument validation
+-Command-line argument validation
 
-Graph file parsing
+-Graph file parsing
 
-Program execution
+-Program execution
 
-Output formatting
+-Output formatting
