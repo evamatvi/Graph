@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 This project implements a Java program that computes all possible paths in an undirected graph with positive edge weights.
 
@@ -18,7 +18,7 @@ Optionally, a maximum total cost c
 
 -The graph is read from a file in DIMACS .gr format.
 
-## Graph Representation
+# Graph Representation
 
 The graph:
 
@@ -37,11 +37,11 @@ v → u
 
 -This ensures the graph behaves as an undirected graph.
 
-## Path Computation Algorithm
+# Path Computation Algorithm
 
 The program uses Depth-First Search (DFS) with backtracking to generate all valid paths.
 
-## Why DFS
+# Why DFS
 
 DFS is suitable because it:
 
@@ -53,7 +53,7 @@ Allows easy control of path length and accumulated cost
 
 Systematically explores all possible path combinations
 
-## How It Works
+# How It Works
 
 The algorithm starts from the source node.
 
@@ -73,9 +73,9 @@ Backtracking removes the last node before exploring another branch.
 
 Node repetition is allowed, meaning cycles are permitted, as required by the problem statement.
 
-## Project Structure
+# Project Structure
 
-# Graph.java
+## Graph.java
 
 Implements the undirected weighted graph and provides methods to:
 
@@ -83,11 +83,11 @@ Add edges
 
 Retrieve neighbors
 
-# Paths.java
+## Paths.java
 
 Abstract class that implements the DFS-based path generation logic.
 
-# Main.java
+## Main.java
 
 Handles:
 
